@@ -7,7 +7,6 @@ import cbc
 def sign(x):
     return (x > 0) - (x < 0)
 
-@admin
 def dw(connection, value = ''):
     try:
         value = int(value)
